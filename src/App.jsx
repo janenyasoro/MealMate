@@ -11,7 +11,7 @@ import ShoppingList from './pages/ShoppingList';
 
 function App() {
   return (
-    <Router basename="/mealmate">
+    <Router basename="/MealMate">
       <AuthProvider>
         <Toaster
           position="top-right"
