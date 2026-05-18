@@ -1,0 +1,242 @@
+{
+    "users": [
+        {
+            "id": "auth0|123456789",
+            "email": "demo@mealmate.com",
+            "name": "Demo User",
+            "avatar": "https://ui-avatars.com/api/?name=Demo+User",
+            "createdAt": "2024-01-01T00:00:00Z"
+        }
+    ],
+    "recipes": [
+        {
+            "id": "1",
+            "userId": "auth0|123456789",
+            "title": "Spaghetti Carbonara",
+            "description": "Classic Italian pasta dish with eggs, cheese, pancetta, and pepper",
+            "prepTime": 20,
+            "cookTime": 15,
+            "servings": 4,
+            "ingredients": [
+                {
+                    "name": "spaghetti",
+                    "quantity": 400,
+                    "unit": "g"
+                },
+                {
+                    "name": "pancetta",
+                    "quantity": 150,
+                    "unit": "g"
+                },
+                {
+                    "name": "eggs",
+                    "quantity": 4,
+                    "unit": "whole"
+                },
+                {
+                    "name": "Parmesan cheese",
+                    "quantity": 100,
+                    "unit": "g"
+                },
+                {
+                    "name": "black pepper",
+                    "quantity": 2,
+                    "unit": "tsp"
+                },
+                {
+                    "name": "salt",
+                    "quantity": 1,
+                    "unit": "tsp"
+                }
+            ],
+            "instructions": [
+                "Bring a large pot of salted water to boil",
+                "Cook spaghetti according to package instructions",
+                "While pasta cooks, fry pancetta until crispy",
+                "Whisk eggs and Parmesan cheese in a bowl",
+                "Drain pasta, reserving some pasta water",
+                "Combine hot pasta with pancetta, then egg mixture",
+                "Stir quickly to create creamy sauce",
+                "Season with black pepper and serve immediately"
+            ],
+            "imageUrl": "https://images.unsplash.com/photo-1612874742237-6526221588e3",
+            "isDemo": true,
+            "createdAt": "2024-01-01T00:00:00Z"
+        },
+        {
+            "id": "2",
+            "userId": "auth0|123456789",
+            "title": "Chicken Stir Fry",
+            "description": "Quick and healthy vegetable stir fry with chicken",
+            "prepTime": 15,
+            "cookTime": 10,
+            "servings": 4,
+            "ingredients": [
+                {
+                    "name": "chicken breast",
+                    "quantity": 500,
+                    "unit": "g"
+                },
+                {
+                    "name": "broccoli",
+                    "quantity": 200,
+                    "unit": "g"
+                },
+                {
+                    "name": "bell peppers",
+                    "quantity": 2,
+                    "unit": "whole"
+                },
+                {
+                    "name": "carrots",
+                    "quantity": 2,
+                    "unit": "whole"
+                },
+                {
+                    "name": "soy sauce",
+                    "quantity": 4,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "garlic",
+                    "quantity": 3,
+                    "unit": "cloves"
+                },
+                {
+                    "name": "ginger",
+                    "quantity": 1,
+                    "unit": "tbsp"
+                }
+            ],
+            "instructions": [
+                "Slice chicken into thin strips",
+                "Chop all vegetables into bite-sized pieces",
+                "Heat oil in wok or large pan",
+                "Cook chicken until golden and cooked through",
+                "Add garlic and ginger, cook for 1 minute",
+                "Add vegetables and stir-fry for 3-4 minutes",
+                "Add soy sauce and stir to combine",
+                "Serve hot with rice or noodles"
+            ],
+            "imageUrl": "https://images.unsplash.com/photo-1512058564366-18510be2db19",
+            "isDemo": true,
+            "createdAt": "2024-01-01T00:00:00Z"
+        },
+        {
+            "id": "3",
+            "userId": "auth0|123456789",
+            "title": "Vegetable Buddha Bowl",
+            "description": "Healthy grain bowl with roasted vegetables and tahini dressing",
+            "prepTime": 15,
+            "cookTime": 25,
+            "servings": 2,
+            "ingredients": [
+                {
+                    "name": "quinoa",
+                    "quantity": 200,
+                    "unit": "g"
+                },
+                {
+                    "name": "sweet potato",
+                    "quantity": 1,
+                    "unit": "whole"
+                },
+                {
+                    "name": "chickpeas",
+                    "quantity": 400,
+                    "unit": "g"
+                },
+                {
+                    "name": "kale",
+                    "quantity": 100,
+                    "unit": "g"
+                },
+                {
+                    "name": "avocado",
+                    "quantity": 1,
+                    "unit": "whole"
+                },
+                {
+                    "name": "tahini",
+                    "quantity": 4,
+                    "unit": "tbsp"
+                },
+                {
+                    "name": "lemon",
+                    "quantity": 1,
+                    "unit": "whole"
+                }
+            ],
+            "instructions": [
+                "Preheat oven to 400°F (200°C)",
+                "Cook quinoa according to package instructions",
+                "Roast sweet potato and chickpeas for 20 minutes",
+                "Massage kale with olive oil and lemon juice",
+                "Make dressing by mixing tahini, lemon juice, and water",
+                "Assemble bowls with quinoa as base",
+                "Top with roasted vegetables, kale, and avocado",
+                "Drizzle with tahini dressing"
+            ],
+            "imageUrl": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+            "isDemo": true,
+            "createdAt": "2024-01-01T00:00:00Z"
+        }
+    ],
+    "mealPlans": [
+        {
+            "id": "1",
+            "userId": "auth0|123456789",
+            "weekStartDate": "2024-01-15",
+            "meals": {
+                "monday": {
+                    "breakfast": null,
+                    "lunch": null,
+                    "dinner": "1"
+                },
+                "tuesday": {
+                    "breakfast": null,
+                    "lunch": null,
+                    "dinner": null
+                },
+                "wednesday": {
+                    "breakfast": null,
+                    "lunch": null,
+                    "dinner": null
+                },
+                "thursday": {
+                    "breakfast": null,
+                    "lunch": null,
+                    "dinner": null
+                },
+                "friday": {
+                    "breakfast": null,
+                    "lunch": null,
+                    "dinner": "2"
+                },
+                "saturday": {
+                    "breakfast": null,
+                    "lunch": null,
+                    "dinner": null
+                },
+                "sunday": {
+                    "breakfast": null,
+                    "lunch": null,
+                    "dinner": "3"
+                }
+            },
+            "createdAt": "2024-01-15T00:00:00Z",
+            "updatedAt": "2024-01-15T00:00:00Z"
+        }
+    ],
+    "shoppingLists": [
+        {
+            "id": "1",
+            "userId": "auth0|123456789",
+            "weekStartDate": "2024-01-15",
+            "items": [],
+            "checkedItems": [],
+            "createdAt": "2024-01-15T00:00:00Z",
+            "updatedAt": "2024-01-15T00:00:00Z"
+        }
+    ]
+}
